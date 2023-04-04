@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "richtext"
+    },
+    "title3": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "richtext"
+    },
+    "title4": {
+      "type": "string"
+    },
+    "text4": {
+      "type": "richtext"
+    },
+    "title5": {
+      "type": "string"
+    },
+    "text5": {
+      "type": "richtext"
+    },
+    "title6": {
+      "type": "string"
+    },
+    "text6": {
+      "type": "richtext"
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "title7": {
+      "type": "string"
+    },
+    "text7": {
+      "type": "richtext"
+    },
+    "title8": {
+      "type": "string"
+    },
+    "text8": {
+      "type": "richtext"
+    },
+    "title9": {
+      "type": "string"
+    },
+    "text9": {
+      "type": "richtext"
+    },
+    "title10": {
+      "type": "string"
+    },
+    "text10": {
+      "type": "richtext"
+    }
+  }
+}

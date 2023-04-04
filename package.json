@@ -1,0 +1,33 @@
+{
+  "name": "aiinsidehub-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.8.2",
+    "@strapi/plugin-users-permissions": "4.8.2",
+    "@strapi/provider-upload-cloudinary": "^4.8.2",
+    "@strapi/strapi": "4.8.2",
+    "cookie-parser": "^1.4.5",
+    "pg": "8.8.0",
+    "posthog-js": "^1.51.5",
+    "strapi-plugin-cookie-manager": "^1.0.8"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "41c2da1e-f510-4af3-a840-271837fc99af"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
